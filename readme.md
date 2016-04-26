@@ -20,3 +20,5 @@ View HBase Master status in browser `http://${docker-machine env default}:60010`
 
 ### Run HBase Thrift
 	$ docker exec hmaster ./bin/hbase-daemon.sh --config conf/ start thrift
+    # enter hbase shell
+    $ docker exec -it hmaster ./bin/hbase shell
