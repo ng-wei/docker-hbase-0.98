@@ -18,3 +18,5 @@ CMD ["./bin/hbase-daemon.sh", "--config", "conf/", "foreground_start", "master"]
 EXPOSE 60010
 # thift server port
 EXPOSE 9095
+# zookeeper port
+EXPOSE 2181
